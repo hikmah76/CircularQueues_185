@@ -13,6 +13,13 @@ public:
 		REAR = -1;
 	}
 
-	VOID 
+	void insert() {
+		int num;
+		cout << "Enter a number: ";
+		cin >> num;
+		cout << endl;
+
+		// cek apakah antrian penuh
+	}
 };
 
