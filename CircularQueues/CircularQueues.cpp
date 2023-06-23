@@ -56,7 +56,10 @@ public:
 		int  REAR_position = REAR;
 
 		// CEK APAKAH ANTRIAN KOSONG
-
+		if (FRONT == -1) {
+			cout << "Queue are...\n";
+			return;
+		}
 	}
 }; 
 
