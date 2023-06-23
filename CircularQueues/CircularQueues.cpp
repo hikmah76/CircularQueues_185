@@ -57,9 +57,27 @@ public:
 
 		// CEK APAKAH ANTRIAN KOSONG
 		if (FRONT == -1) {
-			cout << "Queue are...\n";
+			cout << "Queue is emty\n";
 			return;
+		}
+
+		cout << "\nElements in the queue are...\n";
+
+		// jika  FRONT _position <= REAR_position, interasi dari FRON hingga REAR
+		if (FRONT_position <= REAR_position) {
+			while (FRONT_position <= REAR_position) {
+				cout << queues_array[FRONT_position] << " ";
+				FRONT_position = 0;
+
+				//interasi dari awal array hingga REAR
+				while (FRONT_position <= REAR_position) {
+					cout << queues_array[FRONT_position] << " ";
+					FRONT_position++;
+				}
+				cout << endl;
+			}
 		}
 	}
 }; 
+
 
