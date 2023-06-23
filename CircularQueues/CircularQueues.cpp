@@ -24,6 +24,16 @@ public:
 			cout << "\nQueues overflow\n";
 			return;
 		}
+		//Cek apakah antrian kosong
+		if (FRONT == max - 1)
+			REAR = 0;
+		else
+			REAR = REAR + 1;
+		queues_array[REAR] = num; 
 	}
-};
+
+	void remove() {
+		//cek apakah antrian kosong
+	}
+}; 
 
