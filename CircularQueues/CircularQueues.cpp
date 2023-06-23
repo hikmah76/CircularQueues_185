@@ -126,7 +126,7 @@ int main() {
 			}
 		}
 		catch (exception& e) {
-			cout << "Check for the entered." << endl
+			cout << "Check for the entered." << endl;
 		}
 	}
 	return 0;
