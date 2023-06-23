@@ -36,7 +36,7 @@ public:
 		//cek apakah antrian kosong
 		if (FRONT == -1) {
 			cout << "Queue undeflow\n";
-
+			return;
 		}
 	}
 }; 
