@@ -67,15 +67,19 @@ public:
 		if (FRONT_position <= REAR_position) {
 			while (FRONT_position <= REAR_position) {
 				cout << queues_array[FRONT_position] << " ";
-				FRONT_position 0;
-
-				//interasi dari awal array hingga REAR
-				while (FRONT_position <= REAR_position) {
-					cout << queues_array[FRONT_position] << " ";
-					FRONT_position++;
-				}
-				cout << endl;
+				FRONT_position++;
 			}
+			cout << endl;
+		}
+		else {
+			// jika  FRONT _position > REAR_position, interasi dari FRON hingga akhir array
+			while (FRONT_position <= n - 1) {
+				cout << queues_array[FRONT_position] << " ";
+				FRONT_position++;
+			}
+			FRONT_position = 0;
+
+			// interasi dari awal array hingga akhir 
 		}
 	}
 }; 
