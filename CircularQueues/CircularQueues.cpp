@@ -79,7 +79,7 @@ public:
 			}
 			FRONT_position = 0;
 
-			// interasi dari awal array hingga akhir 
+			// interasi dari awal array hingga akhir REAR
 		}
 	}
 }; 
