@@ -80,6 +80,10 @@ public:
 			FRONT_position = 0;
 
 			// interasi dari awal array hingga akhir REAR
+			while (FRONT_position <= REAR_position) {
+				cout << queues_array[FRONT_position] << " ";
+				FRONT_position++;
+			}
 		}
 	}
 }; 
