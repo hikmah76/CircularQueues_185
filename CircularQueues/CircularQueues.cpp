@@ -38,6 +38,16 @@ public:
 			cout << "Queue undeflow\n";
 			return;
 		}
+		cout << "\nThe elemnet delete from the queue  is: " << queues_array[FRONT] << "\n";
+
+		// cek jika antrian memiliki satu element
+		if (FRONT == REAR) {
+			FRONT = -1;
+			REAR = -1;
+		}
+		else {
+			// jika elemen yang dihapus berada di posisi
+		}
 	}
 }; 
 
